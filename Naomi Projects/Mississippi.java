@@ -1,4 +1,6 @@
-
+/* HW 9 1.1 Mississippi
+ * Naomi Yung
+ */
 public class Mississippi
 {
     public static void main(String[] args) {
