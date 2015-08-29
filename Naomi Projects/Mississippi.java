@@ -1,20 +1,24 @@
-/* HW 9 1.1 Mississippi
+/** 
+ * HW 9 1.1 This program spells out Mississippi.
  * Naomi Yung
+ * Revised 8/28/15
  */
 public class Mississippi
 {
     public static void main(String[] args) {
         mCode();
         iCode();
-        sCode();
-        sCode();
+        twosCode();
         iCode();
-        sCode();
-        sCode();
+        twosCode();
         iCode();
         pCode();
         pCode();
         iCode();
+    }
+    public static void twosCode() {
+        sCode();
+        sCode();
     }
     public static void mCode() {
         System.out.println("M     M");
@@ -24,6 +28,7 @@ public class Mississippi
         System.out.println("M     M");
         System.out.println("M     M");
         System.out.println("M     M");
+        System.out.println();
     }
     public static void iCode() {
         System.out.println("IIIII");
@@ -32,6 +37,7 @@ public class Mississippi
         System.out.println("  I");
         System.out.println("  I");
         System.out.println("IIIII");
+        System.out.println();
     }
     public static void sCode() {
         System.out.println(" SSSSS");
@@ -41,6 +47,7 @@ public class Mississippi
         System.out.println("      S");
         System.out.println("S     S");
         System.out.println(" SSSSS");
+        System.out.println();
     }
     public static void pCode() {
         System.out.println("PPPPP");
@@ -50,5 +57,6 @@ public class Mississippi
         System.out.println("P");
         System.out.println("P");
         System.out.println("P");
+        System.out.println();
     }
 }
