@@ -1,9 +1,9 @@
 
 /**
- * "The Twelve Days of Christmas" song.
+ * This program generates "The Twelve Days of Christmas" song.
  * 
  * Naomi Yung 
- * HW P 1.4
+ * HW P 1.4. 8/27. Revised 8/31/15.
  */
 public class TwelveDaysChristmas
 {
@@ -11,47 +11,36 @@ public class TwelveDaysChristmas
        System.out.println("On the first day of Christmas,");
        trueLove();
        aPartridge();
-       System.out.println("");
        System.out.println("On the second day of Christmas,");
        trueLove();
        twoDoves();
-       System.out.println("");
        System.out.println("On the third day of Christmas,");
        trueLove();
        threeHens();
-       System.out.println("");
        System.out.println("On the fourth day of Christmas,");
        trueLove();
        fourBirds();
-       System.out.println("");
        System.out.println("On the fifth day of Christmas,");
        trueLove();
        fiveRings();
-       System.out.println("");
        System.out.println("On the sixth day of Christmas,");
        trueLove();
        sixGeese();
-       System.out.println("");
        System.out.println("On the seventh day of Christmas,");
        trueLove();
        sevenSwans();
-       System.out.println("");
        System.out.println("On the eighth day of Christmas,");
        trueLove();
        eightMaids();
-       System.out.println("");
        System.out.println("On the ninth day of Christmas,");
        trueLove();
        nineLadies();
-       System.out.println("");
        System.out.println("On the tenth day of Christmas,");
        trueLove();
        tenLords();
-       System.out.println("");
        System.out.println("On the eleventh day of Christmas,");
        trueLove();
        elevenPipers();
-       System.out.println("");
        System.out.println("On the twelfth day of Christmas,");
        trueLove();
        twelveDrummers();
@@ -61,6 +50,7 @@ public class TwelveDaysChristmas
     }
     public static void aPartridge() {
         System.out.println("a partridge in a pear tree.");
+        System.out.println("");
     }
     public static void twoDoves() {
         System.out.println("two turtle doves, and");

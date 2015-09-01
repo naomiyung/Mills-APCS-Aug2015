@@ -1,7 +1,7 @@
 
-/*
- * HW 9 1.3 There Was an Old Lady Who Swallowed a Fly
- * Naomi Yung 
+/**
+ * HW 9 1.3 This program generates the song "There Was an Old Lady Who Swallowed a Fly."
+ * Naomi Yung 8/25. Revised 8/31/15.
  */
 public class OldLady
 {
@@ -9,19 +9,15 @@ public class OldLady
        oldLady();
        System.out.println("fly");
        refrain();
-       System.out.println("");
        oldLady();
        System.out.println("spider");
        spider();
-       System.out.println("");
        oldLady();
        System.out.println("bird,\nHow absurd to swallow a bird,");
        bird();
-       System.out.println("");
        oldLady();
        System.out.println("cat,\nImagine that to swallow a cat,\nShe swallowed the cat to catch the bird,");
        bird();
-       System.out.println("");
        oldLady();
        System.out.println("horse,\nShe's dead, of course.");
     }
@@ -31,6 +27,7 @@ public class OldLady
     public static void refrain() {
         System.out.println("I don't know why she swallowed a fly,");
         System.out.println("Perhaps she'll die.");
+        System.out.println("");
     }
     public static void spider(){
         System.out.println("That wriggled and jiggled and tickled inside her,");
