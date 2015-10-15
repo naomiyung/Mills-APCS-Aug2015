@@ -1,11 +1,11 @@
 
 /**
- * EquestriaExercise1 returns the distance between 2 locations from the map of Equestria.
+ * Exercise 1: EquestriaDistance returns the distance between 2 locations from the map of Equestria.
  * 
  * Naomi Yung
  * 10/13/15
  */
-public class EquestriaExercise1
+public class EquestriaDistance
 {
     public static void main(String[] args){
         double distanceBetween= distance(30,13,35,9);

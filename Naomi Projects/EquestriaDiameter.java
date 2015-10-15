@@ -1,14 +1,14 @@
 
 /**
- * EquestriaExercise2 finds the diameter of a circular path and returns the length of the trip.
+ * Exercise 2: EquestriaDiameter finds the diameter of a circular path and returns the length of the trip.
  * 
  * Naomi Yung 
  * 10/13/15 
  */
-public class EquestriaExercise2
+public class EquestriaDiameter
 {
     public static void main(String[] args){
-        double x= 30; //the diameter of the circular path
+        double x= 35; //the approximate diameter of Equestria
         double length=roadTrip(x);
         System.out.println("The length of the trip is "+length);
     }
