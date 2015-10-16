@@ -13,7 +13,8 @@ public class EquestriaDiameter
         System.out.println("The length of the trip is "+length);
     }
     public static double roadTrip(double diameter){
-        double length=diameter*Math.PI;
+        double length1=diameter*Math.PI;
+        double length=(int)(length1*100.0)/100.0;
         return length;
     }
 }

@@ -1,6 +1,5 @@
-
 /**
- * ThreeStopTour finds the total distance between three destinations and the angles between each pair of cities.
+ * Ex 3: ThreeStopTour finds the total distance between three destinations and the angles between each pair of cities.
  * 
  * Naomi Yung
  * 10/13/15
@@ -51,7 +50,8 @@ public class ThreeStopTour
         double betweenXandY=Math.sqrt(xdifference+ydifference);
         double betweenYandZ=Math.sqrt(xdifference2+ydifference2);
         double betweenZandX=Math.sqrt(xdifference3+ydifference3);
-        double totalDistance=betweenXandY+betweenYandZ;
+        double totalDistance1=betweenXandY+betweenYandZ;
+        double totalDistance=(int)(totalDistance1*100.0)/100.0;
         return totalDistance;
        
     }
@@ -61,7 +61,10 @@ public class ThreeStopTour
     }
     //computes angle between 2 cities; for example, between Baltimare and Manehattan, you would be finding the angle of Neighagra
     public static double angle(double a, double b, double c){
-        double angle= Math.acos((Math.pow(b,2)+Math.pow(c,2)-Math.pow(a,2)/(2*b*c)));
+        double angleEquation= (Math.pow(b,2)+Math.pow(c,2)-Math.pow(a,2))/(2*b*c);
+        double angleinRadians=Math.acos(angleEquation);
+        double angle1=(angleinRadians*180/Math.PI);
+        double angle=(int)(angle1*100.0)/100.0;
         return angle;
     }
     //states the angles between two cities

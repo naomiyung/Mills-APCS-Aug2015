@@ -9,7 +9,7 @@ public class LongestTrip
 {
     public static void main(String[] args){
         double longestDistance= distanceBetween(30,13,35,9,22,7);
-        System.out.println("The longest trip is "+longestDistance);
+        System.out.println("The longest trip between "+"and "+":"+longestDistance); //insert cities 
     }
 
     public static double distanceBetween(int x1, int y1, int x2, int y2, int x3, int y3){
