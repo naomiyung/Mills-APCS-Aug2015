@@ -15,19 +15,29 @@ public class ProcessingNumbers
        int totalNumber=console.nextInt();
        int count=0;
        int evenSum=0;
+       double largestEven=-100000;
+       double min=100000;
+       double max=-100000;
        while (count<totalNumber){
            System.out.println("Print your number: ");
            double number=console.nextDouble();
            if(number%2==0){
                evenSum+=number;
             }
+            if(number%2==0 && number>largestEven){
+                largestEven=number;
+            }
+            if(number<min){
+            min=number;
+           }
+           if(number>max){
+               max=number;
+            }
            count++;
         }
         System.out.println("The sum of all even numbers is "+evenSum);
-        double max=0;
-        if(number<10000){
-            max=number;
-        }
-           
+        System.out.println("The largest number is "+max+" and the smallest number is "+min+".");
+        System.out.println("The largest even number is "+largestEven+".");
+        
 }
 }
