@@ -1,17 +1,17 @@
 
 /**
- * Exercise 4: LongestTrip returns the longest distance between any pair of destinations.
+ * Exercise 4: LongestTrip4 returns the longest distance between any pair of destinations of 3 locations.
  * 
  * Naomi Yung
  * 10/14/15
  */
-public class LongestTrip
+public class LongestTrip4
 {
     public static void main(String[] args){
         double longestDistance= distanceBetween(30,13,35,9,22,7);
-        System.out.println("The longest trip between "+"and "+":"+longestDistance); //insert cities 
+        System.out.println("The longest trip between Baltimare, Manehattan, and Neighagra Falls is "+longestDistance); //insert cities 
     }
-
+    //computes the distance between each location then compares by using 'max'
     public static double distanceBetween(int x1, int y1, int x2, int y2, int x3, int y3){
         double xdifference= Math.pow(x2-x1, 2);
         double ydifference=Math.pow(y2-y1, 2);
@@ -23,7 +23,8 @@ public class LongestTrip
         double betweenYandZ=Math.sqrt(xdifference2+ydifference2);
         double betweenZandX=Math.sqrt(xdifference3+ydifference3);
         double almostLongestDistance= Math.max(betweenXandY, betweenYandZ);
-        double longestDistance=Math.max(almostLongestDistance, betweenZandX);
+        double longestDistance1=Math.max(almostLongestDistance, betweenZandX);
+        double longestDistance=(int)(longestDistance1*100.0)/100.0;
         return longestDistance;
     }
 }

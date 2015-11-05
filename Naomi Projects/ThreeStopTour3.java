@@ -1,10 +1,10 @@
 /**
- * Ex 3: ThreeStopTour finds the total distance between three destinations and the angles between each pair of cities.
+ * Ex 3: ThreeStopTour3 finds the total distance between three destinations and the angles between each pair of cities.
  * 
  * Naomi Yung
  * 10/13/15
  */
-public class ThreeStopTour
+public class ThreeStopTour3
 {
    public static void main(String[] args){
        double totalDistance=distance(30,13,35,9,22,7); //three pairs of coordinates for Baltimare, Manehattan, and Neighagra Falls

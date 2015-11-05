@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=name\ console
+comment1.target=java.lang.String\ getADate(java.lang.String,\ java.util.Scanner)
+comment2.params=
+comment2.target=void\ damage()
+comment3.params=each\ theNumber\ number2
+comment3.target=double\ costMethod(java.lang.String,\ int,\ int)
+comment4.params=dinner\ clothes
+comment4.target=double\ foodandClothes(double,\ double)
+comment5.params=name\ otherName
+comment5.target=void\ statsTable(java.lang.String,\ java.lang.String)
+numComments=6
